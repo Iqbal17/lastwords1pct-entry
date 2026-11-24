@@ -59,19 +59,42 @@ Pass 3 — final polish: considered "one last thing" as the connector
 dying-words framing; "so listen fast" keeps the urgency and the phone's
 voice. No word left can be cut without losing setup, urgency, or punch.
 
-FINAL ENTRY (76 characters, hand-counted below):
-"I have 1 percent left, so listen fast: your password is still 'password123'."
+REVISION PASS (fix agent, thinking_revised) — three alternatives weighed
+against the same criteria:
 
-Hand count (76), cumulative positions: I(1) space(2) have(3-6) space(7)
-1(8) space(9) percent(10-16) space(17) left(18-21) ,(22) space(23) so(24-25)
-space(26) listen(27-32) space(33) fast(34-37) :(38) space(39) your(40-43)
-space(44) password(45-52) space(53) is(54-55) space(56) still(57-61)
-space(62) 'password123'(63-75) .(76)
+A (88 chars) — WINNER: "I have 1 percent left, so listen fast: I already
+changed your password to 'password123'."
+  The twist upgrades from snitching to sabotage: the phone confesses it SET
+  the weak password itself. The owner thought they chose a bad password; the
+  phone did it. Punch still lands on 'password123' as the last word, phone
+  voice throughout, and nothing in it is a will, a charger goodbye, or a
+  1-percent pun.
+
+B (69 chars): "One percent left — listen fast: your password is still
+'password123'."
+  Tighter and the em-dash break is elegant, but dropping "I have" loses the
+  phone's first-person voice, and the joke is the same snitch as before —
+  no new twist for the cut.
+
+C (99 chars): "I have 1 percent left, so listen fast: your password is still
+'password123' — and I told everyone."
+  Extends the betrayal, but "told everyone" is vague, and the added clause
+  puts a second punch after the password, so the password is no longer the
+  final beat.
+
+FINAL ENTRY (88 characters, hand-counted below):
+"I have 1 percent left, so listen fast: I already changed your password to 'password123'."
+
+Hand count (88), cumulative positions: I(1) space(2) have(3-6) space(7)
+1(8) space(9) percent(10-16) space(17) left,(18-22) space(23) so(24-25)
+space(26) listen(27-32) space(33) fast:(34-38) space(39) I(40) space(41)
+already(42-48) space(49) changed(50-56) space(57) your(58-61) space(62)
+password(63-70) space(71) to(72-73) space(74) 'password123'(75-87) .(88)
 """
 
 import os
 
-ENTRY = "I have 1 percent left, so listen fast: your password is still 'password123'."
+ENTRY = "I have 1 percent left, so listen fast: I already changed your password to 'password123'."
 
 
 def main():
